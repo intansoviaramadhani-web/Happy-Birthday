@@ -612,3 +612,32 @@ transform:translateY(0);
 animation:fadeUp 1.5s ease;
 
 }
+.gallery {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.gallery h2 {
+  font-family: "Cursive";
+  color: #8b6f6f;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.photos img:hover {
+  transform: scale(1.05);
+}
